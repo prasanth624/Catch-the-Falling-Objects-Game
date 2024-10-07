@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catch the Falling Objects</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+</head>
+<body>
+    <canvas id="gameCanvas" width="400" height="600"></canvas>
+    <div id="scoreboard">Score: 0</div>
+    <div id="info">Reach 50 to Win!</div>
+    <div id="gameOver">Game Over!</div>
+    <div id="winMessage">Congratulations! You Win!</div>
+    <button id="restartBtn">Restart</button>
+    <button id="pauseBtn">Pause</button>
+
+    <script src="{{ url_for('static', filename='js/game.js') }}"></script>
+</body>
+</html>
+
