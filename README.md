@@ -1,4 +1,3 @@
-```markdown
 # Catch the Falling Objects Game
 
 ## Overview
