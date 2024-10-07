@@ -4,6 +4,7 @@
 "**Catch the Falling Objects**" is a fun, browser-based game built with Flask and JavaScript. The objective is simple: catch falling objects using a basket! Enjoy a night mode filled with stars and a moon, and aim to reach a score of 50 to win! 🌟
 
 ![Game Screenshot](Game-screenshot.png)
+<img src="Game-screenshot.png" alt="Game Screenshot" width="400"/>
 
 ## Features
 - ✨ **Catch Falling Objects**: Colorful shapes like triangles, circles, and hexagons.
