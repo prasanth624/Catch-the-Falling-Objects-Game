@@ -1,0 +1,67 @@
+body { 
+    margin: 0; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    height: 100vh; 
+    background: #001f3f; 
+    position: relative; 
+}
+canvas { 
+    display: block; 
+    border: 4px solid #ffab40; 
+}
+#scoreboard { 
+    position: absolute; 
+    top: 20px; 
+    left: 20px; 
+    font-size: 24px; 
+    color: #ffea00; 
+}
+#gameOver, #winMessage { 
+    display: none; 
+    position: absolute; 
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+    font-size: 32px; 
+    color: #ffffff; 
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+#winMessage { 
+    color: #4caf50; 
+    background-color: rgba(255, 255, 255, 0.9);
+}
+button { 
+    display: block; 
+    margin: 10px; 
+    padding: 10px 20px; 
+    border: none; 
+    border-radius: 5px; 
+    cursor: pointer; 
+    font-size: 16px; 
+    color: #ffffff; 
+}
+#restartBtn { 
+    background-color: #007bff; 
+    position: absolute; 
+    top: 80px; 
+    right: 20px; 
+}
+#pauseBtn { 
+    background-color: #ffc107; 
+    position: absolute; 
+    top: 150px; 
+    right: 20px; 
+}
+#info { 
+    position: absolute; 
+    top: 20px; 
+    left: 150px; 
+    font-size: 18px; 
+    color: #ffea00; 
+}
+
