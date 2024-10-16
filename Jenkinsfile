@@ -31,9 +31,9 @@ pipeline {
             steps {
                 script {
                     sh """
-                    docker stop \$(docker ps -aq) || true
-                    docker rm \$(docker ps -aq) || true
-                    docker run -itd -p 5000:5000 ${DOCKER_IMAGE}:${DOCKER_TAG}
+                    docker stop game-app || true
+                    docker rm game-app || true
+                    docker run -itd -p 5000:5000 --name game-app ${DOCKER_IMAGE}:${DOCKER_TAG}                    
                     docker ps
                     """
                 }
